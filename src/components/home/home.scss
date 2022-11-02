@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    //height: 100vh;
+    position: relative;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
